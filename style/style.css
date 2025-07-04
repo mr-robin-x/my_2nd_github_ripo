@@ -2,6 +2,7 @@ h1{
     background-color: aqua;
     text-align: center;
     padding: 3px;
+    margin:0;
 }
 #first{
 
@@ -11,11 +12,75 @@ h1{
     padding: 10px 15px;
     margin: 0px;
     border: 5px solid rgb(218, 250, 229);
-    border-radius: 70px 0;
+    /* border-radius: 70px 0; */
 }
 .second{
     background-color: rgb(218, 250, 229);
     padding: 10px 15px;
     border: 5px solid rgb(189, 245, 245);
-    border-radius: 70px 70px;
+    /* border-radius: 70px 70px; */
+}
+.died{
+    text-decoration: underline;
+    display:block;
+    color:red
+}
+body{
+    margin:0px;
+    background-color:rgb(160, 223, 181);
+}
+.math{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 07px;
+    border:5px solid rgb(141, 190, 141);
+    padding: 5px;
+    border-radius: 7px 20px;
+    
+    width:130px;
+    background-color: rgb(74, 185, 74);
+
+}
+.phy{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 07px;
+    border:5px solid rgb(31, 71, 31);
+    padding: 5px;
+    border-radius: 7px 20px;
+    
+    width:130px;
+    background-color: rgb(164, 163, 233);
+}
+.chy{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 07px;
+    border:5px solid rgb(162, 184, 162);
+    padding: 5px;
+    border-radius: 7px 20px;
+    
+    width:130px;
+    background-color: rgb(185, 211, 114);
+}
+.bot{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 07px;
+    border:5px solid rgb(20, 20, 20);
+    padding: 5px;
+    border-radius: 7px 20px;
+    
+    width:200px;
+    background-color: rgb(233, 163, 215);
+}
+#secon{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration:underline;
 }
